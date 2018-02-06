@@ -1,0 +1,38 @@
+{% load staticfiles %}
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>{{ Place.category }}</title>
+  <link rel="stylesheet" href="{% static 'css/category_detail.css' %}">
+<body>
+
+    <div class="TopBar">SaleKom</div>
+  {% for Place in object_list %}
+
+      <div class="Place">
+        <div class="container">
+          <div class="name">
+            <h1>{{ Place.title }}</h1>
+          </div>
+          <div class="discount">
+            <h1>{{ Place.discount_rate}}</h1>
+          </div>
+        </div>
+        <div class="Image">
+          <img src="{{Place.image.url}}" alt="{{Place.title}}" />
+        </div>
+        <div class="location">
+          <p>{{ Place.location_text}}</p>
+        </div>
+      </div>
+  {% endfor %}
+<p id="animation">50%</p>
+<p id="animation1">10%</p>
+<p id="animation2">20%</p>
+<p id="animation3">30%</p>
+<p id="animation4">40%</p>
+<p id="animation5">60%</p>
+<p id="animation6">70%</p>
+<p id="animation7">80%</p>
+</body>
+</html>

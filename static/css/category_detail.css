@@ -1,0 +1,295 @@
+body{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+
+.TopBar{
+  font-size: 75px;
+  font-weight: bold;
+  /*background-color: red;*/
+  background: linear-gradient(rgba(255,0,0,0.7), red);
+  margin: 0px;
+  border:0px;
+  padding: 30px;
+  width:100%;
+  color: white;
+  text-align: center;
+  box-shadow: 0px 0px 10px red;
+  animation-name: wavy;
+  animation-duration: 5s;
+  animation-delay:0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: fixed;
+  z-index: 1;
+  top:-20px;
+}
+#title{
+  color: white;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  font-size: 100px;
+}
+@keyframes wavy{
+  100% {
+    box-shadow: 0px 0px 30px red;
+  }
+}
+
+div {
+  text-align: center;
+  font-family: "calibri", sans-serif;
+  color: red;
+}
+
+.Place {
+  position: relative;
+  display: block;
+  box-shadow: 5px 5px 10px red;
+  width: 500px;
+  margin: auto;
+  border-radius: 10%;
+  height: 400px;
+  overflow: hidden;
+  margin-top:30px;
+  margin-bottom: 20px;
+  top:150px;
+  background: white;
+
+}
+
+.container {
+  display: block;
+
+}
+.Image{
+  overflow: hidden;
+  width:300px;
+  height:200px;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+img{
+
+  transform: scale(1.0);
+  position: absolute;
+  top: 75px;
+  left:0px;
+
+}
+
+.name{
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  margin: 0px;
+  width: 200px;
+  text-align: left;
+
+}
+
+.discount{
+  display: inline-block;
+  position: absolute;
+  right:10px;
+  top: 10px;
+  margin:0px;
+  padding: 0px;
+  color: white;
+  background: red;
+  border-radius: 100px;
+  width: 200px;
+  font-size: 10px;
+
+}
+
+.location{
+  color: grey;
+  font-weight: bold;
+  text-align: right;
+  position: absolute;
+  left: 0px;
+  bottom: 10px;
+  background: linear-gradient(rgba(255,255,255,0.7), white);
+  width: 450px;
+}
+
+#animation{
+  color:rgba(220,220,220,1);
+  width:5px;
+  animation-name: random_motion;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 30s;
+  z-index: -1;
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+}
+
+@keyframes random_motion {
+  100%{
+    transform: rotate(720deg);
+    left:1250px;
+    bottom: 750px;
+  }
+
+}
+
+#animation1{
+  color:rgba(220,220,220,0.9);
+  width:5px;
+  animation-name: random_motion1;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 35s;
+  z-index: -1;
+  position: fixed;
+  bottom: 50px;
+  left: 200px;
+}
+
+@keyframes random_motion1 {
+  100%{
+    transform: rotate(720deg);
+    left:1000px;
+    bottom: 1000px;
+  }
+
+}
+
+#animation2{
+  color:rgba(220,220,220,0.9);
+  width:5px;
+  animation-name: random_motion2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 40s;
+  z-index: -1;
+  position: fixed;
+  bottom: 50px;
+  left: 750px;
+}
+
+@keyframes random_motion2 {
+  100%{
+    transform: rotate(720deg);
+    left:200px;
+    bottom: 1000px;
+  }
+
+}
+
+#animation3{
+  color:rgba(220,220,220,0.9);
+  width:5px;
+  animation-name: random_motion3;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 20s;
+  z-index: -1;
+  position: fixed;
+  bottom: -50px;
+  left: 1000px;
+}
+
+@keyframes random_motion3 {
+  100%{
+    transform: rotate(720deg);
+    left:-50px;
+    bottom: 1250px;
+  }
+
+}
+
+#animation4{
+  color:rgba(220,220,220,0.9);
+  width:5px;
+  animation-name: random_motion4;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 50s;
+  z-index: -1;
+  position: fixed;
+  bottom: -50px;
+  left: -10px;
+}
+
+@keyframes random_motion4 {
+  100%{
+    transform: rotate(720deg);
+    left:2000px;
+    bottom: 1250px;
+  }
+
+}
+
+#animation5{
+  color:rgba(220,220,220,0.9);
+  width:5px;
+  animation-name: random_motion5;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 50s;
+  z-index: -1;
+  position: fixed;
+  bottom: -50px;
+  left: 1800px;
+}
+
+@keyframes random_motion5 {
+  100%{
+    transform: rotate(720deg);
+    left:-50px;
+    bottom: 2500px;
+  }
+
+}
+
+
+#animation6{
+  color:rgba(220,220,220,0.9);
+  width:5px;
+  animation-name: random_motion6;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 45s;
+  z-index: -1;
+  position: fixed;
+  bottom: -50px;
+  left: 1700px;
+}
+
+@keyframes random_motion6 {
+  100%{
+    transform: rotate(720deg);
+    left:-50px;
+    bottom: 2250px;
+  }
+}
+
+#animation7{
+  color:rgba(220,220,220,0.9);
+  width:5px;
+  animation-name: random_motion7;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 30s;
+  z-index: -1;
+  position: fixed;
+  bottom: -50px;
+  left: 1700px;
+}
+
+@keyframes random_motion6 {
+  100%{
+    transform: rotate(720deg);
+    left:-50px;
+    bottom: 1550px;
+  }
+}
